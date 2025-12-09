@@ -88,7 +88,7 @@ Validation done for:
 
 ## 📩 Contact
 
-**Name:** Mathew  
+**Name:** Mathew sam
 **Role:** Software Test Engineer (Fresher / Junior QA)  
 
 Thank you for visiting my QA portfolio 🙌
