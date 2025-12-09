@@ -56,22 +56,23 @@ Defects documented using professional format with:
 
 ---
 
-## 🌐 API Testing
+## 🌐 API Testing (Postman)
 
-📁 **Folder:** api-testing  
-📄 **File:** HMS_Postman_Collection.json
+I executed REST API tests using Postman on public demo APIs (reqres.in & jsonplaceholder.typicode.com).
 
-Postman collection includes tests for:
-- GET – Fetch patient list
-- GET – Patient by ID
-- POST – Create patient
-- PUT – Update patient
-- DELETE – Remove patient
+Covered operations:
+- GET – List patients (200 OK)
+- GET – Patient by ID (200 OK)
+- POST – Create patient (201 Created)
+- PUT – Update patient (200 OK)
+- DELETE – Remove patient (200/204 OK)
 
-Validation done for:
-- Status codes
-- Response structure
-- Data presence
+Validations added:
+- Status code checks
+- Response payload field validations using JavaScript assertions
+
+Postman collection:
+📁 api-testing/HMS_Postman_Collection.json
 
 ---
 
